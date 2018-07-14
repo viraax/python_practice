@@ -6,7 +6,7 @@ def main():
 		try:
 			number = int(input('Enter a number: '))
 			if number < 1 or number > 1000000:
-				raise ValueError #this will send it to the print message and back to the input option
+				raise ValueError #send it to the print message and back to the input option
 			break
 		except ValueError:
 			print("Invalid integer. The number must be in the range of 1 - 1 million.")	
@@ -23,7 +23,7 @@ def main():
 		try:
 			num1 = int(input('Enter a number: '))
 			if num1 < 1 or num1 > 1000000:
-				raise ValueError #this will send it to the print message and back to the input option
+				raise ValueError 
 			break
 		except ValueError:
 			print("Invalid integer. The number must be in the range of 1 - 1 million.")	
@@ -33,7 +33,7 @@ def main():
 		try:
 			num2 = int(input('Enter a number: '))
 			if num2 < 1 or num2 > 1000000:
-				raise ValueError #this will send it to the print message and back to the input option
+				raise ValueError 
 			break
 		except ValueError:
 			print("Invalid integer. The number must be in the range of 1 - 1 million.")	
