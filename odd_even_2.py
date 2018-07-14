@@ -1,6 +1,6 @@
 # Petia Nikolova 
 # 14.07.2018
-8
+
 def main():
 	while True:
 		try:
